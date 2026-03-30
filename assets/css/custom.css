@@ -1,0 +1,46 @@
+/* Customizações de cores para combinar com www.collab.codes */
+
+@layer theme {
+  :root {
+    /* Cor primária / accent (usando o azul do seu site) */
+    --primary-hue: 200deg;           /* Azul próximo de #1C91CD */
+    --primary-saturation: 75%;
+    --primary-lightness: 50%;
+
+    /* Cores de texto */
+    --text-primary-color: #403f3f;
+    --text-secondary-color: #1C91CD;
+
+    /* Cores de fundo */
+    --bg-primary-color: #ffffff;
+    --bg-secondary-color: #f9f9f9;
+
+    /* Link e active color */
+    --link-color: #1890FF;
+    --link-hover-color: #40A9FF;
+  }
+
+  [data-theme="dark"] {
+    /* Modo escuro - baseado nas suas variáveis */
+    --text-primary-color: #e6edf3;
+    --text-secondary-color: #56a8d1;
+    --bg-primary-color: #0d1117;
+    --bg-secondary-color: #161b22;
+    --link-color: #0b81ef;
+    --link-hover-color: #3f9fee;
+  }
+}
+
+/* Ajustes adicionais para melhor harmonia */
+body {
+  font-family: var(--font-family-primary, system-ui, sans-serif);
+}
+
+/* Se quiser forçar mais cores do seu site */
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}

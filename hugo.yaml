@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: My Site
+title: Collab Codes Blog
 
 # import hextra as module
 module:
@@ -18,26 +18,20 @@ markup:
 
 menu:
   main:
-    - name: Docs
-      pageRef: /docs
+    - name: Home ↗
+      url: "https://www.collab.codes"
       weight: 1
-    - name: About
-      pageRef: /about
-      weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
-      weight: 3
     - name: Search
-      weight: 4
+      weight: 2
       params:
         type: search
     - name: GitHub
-      weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+      weight: 3
+      url: "https://github.com/collab-codes/collab-blog-hextra"
       params:
         icon: github
     - name: Twitter
-      weight: 6
+      weight: 4
       url: "https://twitter.com/"
       params:
         icon: x-twitter
@@ -53,4 +47,15 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+    base: "https://github.com/collab-codes/collab-blog-hextra/edit/main/content"
+
+  title: "collab.codes Blog"
+
+  # Tema (light/dark/system)
+  theme:
+    default: system
+    displayToggle: true
+
+  showSearch: true
+  showToc: true
+  showLastUpdated: true

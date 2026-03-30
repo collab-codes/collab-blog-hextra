@@ -1,17 +1,13 @@
 ---
-title: My Site
+title: "Blog"
+description: "Latest articles, insights and knowledge from the Collab.codes team"
+layout: blog
+type: blog
+cascade:
+  type: blog
 toc: false
 ---
 
-This is the landing page.
+Wellcome,
 
-## Explore
-
-{{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
-{{< /cards >}}
-
-## Documentation
-
-For more information, visit [Hextra](https://imfing.github.io/hextra).
+All our articles, technical insights, internal knowledge and updates.
