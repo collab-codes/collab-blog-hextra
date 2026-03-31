@@ -16,6 +16,28 @@ markup:
   highlight:
     noClasses: false
 
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
+  footer:
+    displayCopyright: false
+    displayPoweredBy: false
+
+  editURL:
+    enable: true
+    base: "https://github.com/collab-codes/collab-blog-hextra/edit/main/content"
+
+    # Tema (light/dark/system)
+  theme:
+    default: system
+    displayToggle: true
+
+  showSearch: true
+  showToc: true
+  showLastUpdated: true
+
 menu:
   main:
     - name: Home
@@ -38,36 +60,12 @@ menu:
       params:
         type: search
     - name: GitHub
-      weight: 4
+      weight: 5
       url: "https://github.com/collab-codes/collab-blog-hextra"
       params:
         icon: github
     - name: Twitter
-      weight: 5
+      weight: 6
       url: "https://twitter.com/"
       params:
         icon: x-twitter
-
-params:
-  navbar:
-    displayTitle: true
-    displayLogo: false
-
-  footer:
-    displayCopyright: false
-    displayPoweredBy: true
-
-  editURL:
-    enable: true
-    base: "https://github.com/collab-codes/collab-blog-hextra/edit/main/content"
-
-  title: "collab.codes Blog"
-
-  # Tema (light/dark/system)
-  theme:
-    default: system
-    displayToggle: true
-
-  showSearch: true
-  showToc: true
-  showLastUpdated: true
