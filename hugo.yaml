@@ -32,7 +32,11 @@ menu:
       url: https://blog.collab.codes
       weight: 3
       params:
-        target: "_self"         - name: Search
+        target: "_self"
+    - name: Search
+      weight: 4
+      params:
+        type: search
     - name: GitHub
       weight: 4
       url: "https://github.com/collab-codes/collab-blog-hextra"
