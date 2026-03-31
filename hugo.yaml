@@ -18,20 +18,28 @@ markup:
 
 menu:
   main:
-    - name: Home ↗
+    - name: Home
       url: "https://www.collab.codes"
       weight: 1
-    - name: Search
+      params:
+        target: "_self"      
+    - name: Docs
+      url: "https://docs.collab.codes"
       weight: 2
       params:
-        type: search
-    - name: GitHub
+        target: "_self"      
+    - name: Blog
+      url: https://blog.collab.codes
       weight: 3
+      params:
+        target: "_self"         - name: Search
+    - name: GitHub
+      weight: 4
       url: "https://github.com/collab-codes/collab-blog-hextra"
       params:
         icon: github
     - name: Twitter
-      weight: 4
+      weight: 5
       url: "https://twitter.com/"
       params:
         icon: x-twitter
