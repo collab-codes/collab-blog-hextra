@@ -1,2 +1,4 @@
-github.com/imfing/hextra v0.12.1 h1:3t1n0bmJbDzSTVfht93UDcfF1BXMRjeFojA071ri2l8=
-github.com/imfing/hextra v0.12.1/go.mod h1:vi+yhpq8YPp/aghvJlNKVnJKcPJ/VyAEcfC1BSV9ARo=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20260503144622-c4ca7ca486ec h1:tNKuOM9Y/6YYPVZVWWBOLqtpXv3cX7ElVGBUYX87rQM=
+github.com/adityatelange/hugo-PaperMod v0.0.0-20260503144622-c4ca7ca486ec/go.mod h1:sp5WH671pzcVNpWKveBQKlBfu6T9uvcBI/4B3BSojKw=
+github.com/imfing/hextra v0.12.3 h1:DZHY2rUWYteyzjlHi9r4n7Bb5e2Q+6LXe4C1Dqn0ZjM=
+github.com/imfing/hextra v0.12.3/go.mod h1:vi+yhpq8YPp/aghvJlNKVnJKcPJ/VyAEcfC1BSV9ARo=

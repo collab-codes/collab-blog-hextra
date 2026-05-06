@@ -1,5 +1,5 @@
-module github.com/imfing/hextra-starter-template
+module github.com/collab-codes/collab-blog-hextra
 
-go 1.26
+go 1.23.0
 
-require github.com/imfing/hextra v0.12.1 // indirect
+require github.com/adityatelange/hugo-PaperMod v0.0.0-20260503144622-c4ca7ca486ec // indirect

@@ -4,6 +4,9 @@ date: 2026-03-31T15:10:00Z
 draft: false
 description: "Why the Backend-for-Frontend pattern makes our product simpler, faster, and easier to evolve."
 tags: ["architecture", "bff", "frontend", "backend", "product", "performance"]
+author: "Collab.codes Team"
+ShowReadingTime: true
+ShowBreadCrumbs: false
 ---
 
 ## A product architecture built for speed and clarity
