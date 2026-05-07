@@ -324,3 +324,10 @@ header {
 #language-menu-btn {
   font-size: 13px;
 }
+
+/* Hide alternate-language links in the header until the language switcher
+   can show the current language label and a clearer translation menu. */
+.lang-menu,
+.logo-switches .nav-sep {
+  display: none;
+}

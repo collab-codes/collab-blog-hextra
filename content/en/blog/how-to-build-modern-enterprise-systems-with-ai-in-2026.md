@@ -8,9 +8,11 @@ author: "Collab.codes Team"
 ShowReadingTime: true
 ShowBreadCrumbs: false
 cover:
-  image: "/images/modern-enterprise-ai-2026.png"
-  alt: "Modern AI Enterprise Architecture"
+  image: "/images/modern-enterprise-ai-2026.jpg"
+  alt: "Modern enterprise application built with AI, runtime, BFF, collaboration, observability, auth, and publishing layers"
   relative: false
+images:
+  - "/images/modern-enterprise-ai-2026.jpg"
 ---
 
 There is a question every company should be asking in 2026:

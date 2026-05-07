@@ -8,9 +8,11 @@ author: "Equipe Collab.codes"
 ShowReadingTime: true
 ShowBreadCrumbs: false
 cover:
-  image: "/images/modern-enterprise-ai-2026.png"
-  alt: "Arquitetura de software empresarial moderno com IA"
+  image: "/images/modern-enterprise-ai-2026.jpg"
+  alt: "Aplicação empresarial moderna construída com IA, runtime, BFF, colaboração, observabilidade, auth e publicação"
   relative: false
+images:
+  - "/images/modern-enterprise-ai-2026.jpg"
 ---
 
 Há uma pergunta que toda empresa deveria estar fazendo em 2026:
